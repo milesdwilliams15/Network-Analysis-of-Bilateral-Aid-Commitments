@@ -5,8 +5,7 @@
 # -----------------------------------------------------
 
 # Get the data
-path <- file.path("C:","Users","Miles","Documents","R",
-                  "Network Analysis of Foreign Aid","aid.csv")
+path <- file.path("https://raw.githubusercontent.com/milesdwilliams15/Network-Analysis-of-Bilateral-Aid-Commitments/master/aid.csv")
 aid <- read.csv(path)
 
 # Get correlations
